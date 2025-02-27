@@ -1,12 +1,13 @@
 import org.example.Account;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
 
 public class TestCheckNameToEmboss {
 
-
+    @DisplayName("Параметризированная проверка: можно ли напечатать строку на карте")
     @ParameterizedTest
     @CsvSource({
             "'Антошка Картошка', true",
