@@ -1,11 +1,14 @@
+import io.qameta.allure.Epic;
 import io.qameta.allure.Step;
 import org.example.Account;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-
+@Epic("TAJ")
+@Tag("aaa")
 public class TestCheckNameToEmboss {
 
 
